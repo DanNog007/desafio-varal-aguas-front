@@ -1,0 +1,14 @@
+.MenuItem a:link, .MenuItem a:visited
+{
+    color: #2e8ebc;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: LatoLight;
+    font-size: 10.4pt;
+}
+
+.MenuItem a:hover, .MenuItem a:active
+{
+    color: #247fab;
+}
