@@ -7,3 +7,17 @@
     position: fixed;
     top: 0;
 }
+
+.FixedMenu ul
+{
+    list-style-type:none;
+    width: 80.5%;
+    padding: 0;
+    margin: 18px auto 0 auto;
+}
+
+.FixedMenu ul li
+{
+    display:inline;
+    margin-right: 29.5px;
+}

@@ -6,7 +6,9 @@ class FixedMenu extends React.Component {
   render() {
     return (
       <div className="FixedMenu">
-        {this.props.children}
+        <ul>
+          {this.props.children}
+        </ul>
       </div>
     );
   }
