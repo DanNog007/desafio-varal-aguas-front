@@ -29,3 +29,17 @@
     text-align: center;
     z-index: -1;
 }
+
+.Container
+{
+    width: 80.5%;
+    background-color: white;
+    margin: -67px auto 0 auto;
+}
+
+.Content
+{
+    width: 75%;
+    margin: 0 auto;
+    padding: 48px 0 0 0;
+}

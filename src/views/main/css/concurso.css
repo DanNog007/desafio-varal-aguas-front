@@ -1,0 +1,53 @@
+.HalfContent
+{
+    float: left;
+    width: 50%;
+}
+
+.HalfContent h3
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Card
+{
+    width: 220px;
+    height: 235px;
+    background-color: #1b546f;
+    float: right;
+    margin-top: -85px;
+}
+
+.CardContent
+{
+    margin: 36px 0 0 36px;
+    width: 140px;
+}
+
+.CardContent p
+{
+    color: white;
+    font-family: LatoRegular;
+    font-size: 9pt;
+}
+
+.CardButton
+{
+    width: 220px;
+    float: right;
+    margin-top: 44px;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.CardButton button
+{
+    width: 165px;
+    height: 38px;
+    background-color: #1b546f;
+    color: white;
+    font-family: LatoRegular;
+    border: 0;
+    font-size: 9pt;
+}
