@@ -2,3 +2,8 @@
     font-family: LatoLight;
     src: url(lato/Lato-Light.ttf);
 }
+
+@font-face {
+    font-family: LatoRegular;
+    src: url(lato/Lato-Regular.ttf);
+}
