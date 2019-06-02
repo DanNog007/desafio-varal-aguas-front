@@ -1,0 +1,17 @@
+.Footer
+{
+    margin-top: 47px;
+    border-top: solid 8px #1b546f;
+    width: 100%;
+    background-color: white;
+    padding: 25px 0;
+}
+
+.FooterLogo
+{
+    margin: 0 auto;
+    width: 127.03px;
+    height: 41px;
+    background-image: url(../../../img/marca_inema_sem_fundo.png);
+    background-size: cover;
+}

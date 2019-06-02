@@ -3,7 +3,8 @@ import Header from './header';
 import Concurso from './concurso';
 import Sobre from './sobre';
 import Regras from './regras';
-import './css/index.css'
+import Footer from './footer';
+import './css/index.css';
 
 function Index() {
   return(
@@ -14,7 +15,7 @@ function Index() {
         <Sobre />
         <Regras />
       </div>
-      
+      <Footer />
     </div>
   );
 }
