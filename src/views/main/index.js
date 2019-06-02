@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from './header';
 import Concurso from './concurso';
+import Sobre from './sobre';
+import Regras from './regras';
 import './css/index.css'
 
 function Index() {
@@ -9,8 +11,10 @@ function Index() {
       <Header />
       <div className="Container">
         <Concurso />
-        
+        <Sobre />
+        <Regras />
       </div>
+      
     </div>
   );
 }
