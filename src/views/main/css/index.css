@@ -1,0 +1,31 @@
+.Header
+{
+    height: 94vh;
+}
+
+.Banner
+{
+    background-image: url(../../../img/ocean-sea-pacific-calm-ripples-nature-water.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-size: 100% 94%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.Logo
+{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 29.5%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    z-index: -1;
+}
