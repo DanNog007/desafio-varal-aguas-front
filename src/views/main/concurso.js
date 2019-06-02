@@ -1,7 +1,8 @@
 import React from 'react';
-import './css/concurso.css'
+import './css/concurso.css';
+import { pipelineTopicExpression } from '@babel/types';
 
-function Concurso() {
+function Concurso(props) {
   return(
     <div className="Content" id="concurso">
       <div className="HalfContent">
@@ -20,7 +21,7 @@ function Concurso() {
           </div>
         </div>
         <div className="CardButton">
-          <button>
+          <button onClick={props.showModal}>
             FAÇA SUA INSCRIÇÃO
           </button>
         </div>
