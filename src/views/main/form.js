@@ -32,7 +32,7 @@ class Form extends React.Component{
         </div>
         <div className="FormGroup" style={{clear:'both'}}>
           <label>Termos:</label><br/>
-          <div style={{height:'200px', width:'568px', overflow:'auto', border:'solid 1px #e5e5e5'}}>
+          <div style={{height:'200px', width:'100%', overflow:'auto', border:'solid 1px #e5e5e5'}}>
             <ol type="I" style={{color:'#777777', fontSize:'11pt', paddingLeft:'26px'}}>
               <li style={{marginBottom:'15px'}}>Confirmo autoria da fotografia, que não constitui plágio em espécie alguma e não possui manipulação digital ou sobre posição;</li>
               <li style={{marginBottom:'15px'}}>Declaro cessão de direito de uso e publicações da fotogradia "Varal das Águas";</li>
