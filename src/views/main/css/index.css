@@ -12,6 +12,7 @@
     right: 0;
     bottom: 0;
     z-index: -1;
+    min-width: 800px;
     background-size: 100% 94%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -23,6 +24,7 @@
     left: 0px;
     right: 0px;
     top: 29.5%;
+    min-width: 800px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
