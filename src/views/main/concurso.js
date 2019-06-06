@@ -1,6 +1,5 @@
 import React from 'react';
 import './css/concurso.css';
-import { pipelineTopicExpression } from '@babel/types';
 
 function Concurso(props) {
   return(

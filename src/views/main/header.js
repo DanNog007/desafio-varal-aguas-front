@@ -15,7 +15,7 @@ function Header(props) {
       </FixedMenu>
       <div className="Banner"></div>
       <div className="Logo">
-        <img src={logo} />
+        <img alt="Varal das Águas" src={logo} />
       </div>
     </header>
 	);
