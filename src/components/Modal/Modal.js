@@ -4,6 +4,18 @@ import './Modal.css';
 
 class Modal extends React.Component {
 
+	constructor(props){
+		super(props);
+
+		this.handleClick = this.handleClick.bind(this);
+	}
+
+	handleClick(e){
+		e.target.disabled = true;
+		this.props.action();
+		e.target.disabled = false;
+	}
+
 	render() {
 		return(
 			<div id="myModal" className={this.props.show ? "modal show" : "modal"}>
@@ -16,7 +28,7 @@ class Modal extends React.Component {
       			{this.props.children}
     			</div>
     			<div className="modal-footer">
-      			<button onClick={this.props.action}>{this.props.submitLabel ? this.props.submitLabel : "Confirmar"}</button>
+      			<button onClick={this.handleClick}>{this.props.submitLabel ? this.props.submitLabel : "Confirmar"}</button>
     			</div>
   			</div>
 			</div>
