@@ -5,7 +5,7 @@ function Regras() {
 		<div className="Content" id="regras">
       <h3>Regras</h3>
       <p>Todas as fotos que retrate da temática água (tais como situação de secas ou excedentes hídricos, as belezas e os desafios de se trabalhar com os recursos hídricos etc.) serão bem vindas.</p>
-      <ul>
+      <ul style={{paddingLeft:'15px', color:'#666666'}}>
         <li><p>As fotos devem ser originais e sem alterações.</p></li>
         <li><p>As fotos devem expor os ambientes visitados em inspeções técnicas realizadas durante inspeções pelo INEMA.</p></li>
         <li><p>Fotografias que incluam pessoas serão desclassificadas.</p></li>
