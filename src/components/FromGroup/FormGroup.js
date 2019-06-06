@@ -7,7 +7,7 @@ class FormGroup extends React.Component{
       return(
         <div className="FormGroup">
           <label for={this.props.id}>{this.props.label}</label>
-          <input className="FormField" type="text" name={this.props.id} id={this.props.id} placeholder={this.props.placeholder} />
+          <input className="FormField" type="text" name={this.props.id} id={this.props.id} placeholder={this.props.placeholder} onChange={this.props.onChange} />
           <label className={this.props.error ? "FormErrorShow" : "FormError"}>{this.props.error}</label>
         </div>
       );
@@ -15,7 +15,7 @@ class FormGroup extends React.Component{
       return(
         <div className="FormGroup">
           <label for={this.props.id}>{this.props.label}</label>
-          <input type="file" name={this.props.id} id={this.props.id} />
+          <input type="file" name={this.props.id} id={this.props.id} onChange={this.props.onChange} />
           <label className={this.props.error ? "FormErrorShow" : "FormError"}>{this.props.error}</label>
         </div>
       );
@@ -23,7 +23,7 @@ class FormGroup extends React.Component{
       return(
         <div className="FormGroup">
           <label className="LabelCheckbox" for={this.props.id}>
-            <input type="checkbox" name={this.props.id} id={this.props.id} />
+            <input type="checkbox" name={this.props.id} id={this.props.id} onChange={this.props.onChange} />
           {this.props.label}</label>
           <label className={this.props.error ? "FormErrorShow" : "FormError"}>{this.props.error}</label>
         </div>
